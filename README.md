@@ -1,1 +1,1 @@
-This will be a recipe website made stritly from HTML
+This will be a recipe website made stritly from HTML 
