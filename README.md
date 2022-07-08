@@ -1,1 +1,1 @@
-# odin-recipes
+This will be a recipe website made stritly from HTML
