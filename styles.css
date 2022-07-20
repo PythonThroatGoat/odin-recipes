@@ -1,0 +1,26 @@
+* {
+    background-color: bisque;
+    font-family: Papyrus, "Lucida Handwriting", fantasy;
+    text-align: center;
+}
+
+.start, 
+.child {
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    color: burlywood;
+    font-family: Garamond, "Times New Roman", serif;
+}
+
+.intro {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+img {
+    height: auto;
+    width: 450px;
+}
