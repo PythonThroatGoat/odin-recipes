@@ -4,37 +4,66 @@
         <meta charset="utf-8">
         <style>
             body{
-                background-image: url('https://i.pinimg.com/originals/b4/60/7d/b4607d8c36731db204af3b55b17ec8b0.gif');
-                background-repeat: repeat;
+                background-image: url('http://m.gettywallpapers.com/wp-content/uploads/2022/06/Chris-Bumstead-Backgrounds-Laptop.jpg');
+                background-repeat: repeat-x;
                 background-size: cover;
                 background-position: top;
             }
+
+            img {
+                background-color: antiquewhite;
+            }
             * {
-                text-align: center;
-                
-                
+                text-align: center;   
             }
             #Main {
                 font-size: 30px;
                 font-family: cursive;
-                background-color: white;
                 font-weight: 750;
             }
             .page {
                 font-size: 20px;
                 font-family:'Times New Roman', Times, serif;
                 font-weight: bolder;
-                background-color: beige;
             }
+
+            .container {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+            }
+
+            .sublink{
+                align-items: flex-start;
+            }
+
+/* code */
+
         </style>
         <title id="title"> Odin Recipes </title>
     </head>
     <body>
-        <h1 id="Main"> Odin Recipes </h1>
-        <p class="page"><a href="../odin-recipes/recipes/beef_sukiyaki.html"> Beef Sukiyaki</a></p>
-        <p class="page"><a href="../odin-recipes/recipes/protien_bowl.html"> Protien Bowl</a></p>
-        <p class="page"><a href="../odin-recipes/recipes/grilled_chicken.html"> Grilled Chicken</a></p>
-        <p class="page"><a href="../odin-recipes/recipes/fried_rice.html"> Fried Rice </a></p>
+        <h1 id="Main"> Get Like CBUM Recipes </h1>
+
+        <div class="container">
+            <div class="sublink">
+                <img src="./sukiyaki-4.webp" alt="cow" width="200" height="200">
+                <p class="page"><a href="../odin-recipes/recipes/beef_sukiyaki.html"> Beef Sukiyaki</a></p>
+            </div>
+            <div class="sublink">
+                <img src="./recipes/beefbowl.avif" width="200" height="200">
+                <p class="page"><a href="../odin-recipes/recipes/protien_bowl.html"> Protien Bowl</a></p>
+            </div>
+            <div class="sublink">
+                <img src="../odin-recipes/recipes/grilledchicken.jpeg" width="200" height="200">
+                <p class="page"><a href="../odin-recipes/recipes/grilled_chicken.html"> Grilled Chicken</a></p>
+            </div>
+            <div class="sublink">
+                <img src="./recipes/friedrice.jpg" width="200" height="200">
+                <p class="page"><a href="../odin-recipes/recipes/fried_rice.html"> Fried Rice </a></p>
+            </div>
+        </div>
     </body>
 
 </html>
